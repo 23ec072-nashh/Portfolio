@@ -2,7 +2,7 @@
 
 A premium, modern, and fully responsive personal portfolio website showcasing the skills, academic history, projects, and certifications of **Naveen Sakthi B**, an Electronics and Communication Engineering student specializing in IoT, Embedded Systems, and Automation.
 
-🔗 **[Live Demo](https://23ec072-nashh.github.io/portfolio/)**
+🔗 **[Live Demo](https://naveensakthi-portfolio.netlify.app/)**
 
 ---
 
