@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naveen Sakthi B | Electronics & IoT Engineer Portfolio</title>
+    <meta name="description" content="Portfolio of Naveen Sakthi B, an Electronics & Communication Engineering student specializing in IoT, Embedded Systems, and Automation.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Feather Icons for vector graphics -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Theme Toggle Floating Button -->
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme" title="Toggle Light/Dark Theme">
+        <i data-feather="moon" class="theme-icon-dark"></i>
+        <i data-feather="sun" class="theme-icon-light"></i>
+    </button>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#home" class="logo">
+                <span class="logo-accent">&lt;</span>Naveen<span class="logo-text">Sakthi</span> <span class="logo-accent">/&gt;</span>
+            </a>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#certifications" class="nav-link">Certificates</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Menu">
+                <i data-feather="menu"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <!-- Animated background elements -->
+            <div class="circuit-bg"></div>
+            <div class="grid-overlay"></div>
+            
+            <div class="hero-container container grid">
+                <div class="hero-content">
+                    <span class="hero-greeting">Hi, I'm</span>
+                    <h1 class="hero-name">Naveen Sakthi B</h1>
+                    <div class="hero-subtitle">
+                        <span class="typewriter-prefix">Specializing in </span>
+                        <span class="typewriter-text" id="typewriter"></span>
+                        <span class="typewriter-cursor">|</span>
+                    </div>
+                    <p class="hero-description">
+                        Electronics and Communication Engineering student at Dr. N.G.P Institute of Technology. Enthusiastic developer of IoT systems, smart automation, and microcontroller-based applications.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">Explore Projects <i data-feather="arrow-right"></i></a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://github.com/23ec072-nashh" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub">
+                            <i data-feather="github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/naveensakthi-b-a8477a324" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn">
+                            <i data-feather="linkedin"></i>
+                        </a>
+                        <a href="mailto:sakthinaveensakthi@gmail.com" class="social-link" title="Email">
+                            <i data-feather="mail"></i>
+                        </a>
+                        <a href="tel:9342574856" class="social-link" title="Phone">
+                            <i data-feather="phone"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-img-container">
+                    <img src="assets/avatar.jpg" alt="Naveen Sakthi B" class="hero-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- About & Education Section -->
+        <section class="about section" id="about">
+            <h2 class="section-title">About & Education</h2>
+            <span class="section-subtitle">My professional journey and academic timeline</span>
+
+            <div class="about-container container grid">
+                <div class="about-info">
+                    <p class="about-description">
+                        I am a detail-oriented **Electronics and Communication Engineering** student passionate about hardware-software integration. I specialize in designing and implementing real-time systems, focusing on smart home automation, robotics, and connected devices.
+                    </p>
+                    <p class="about-description">
+                        My skill set spans embedded programming, circuit design, and sensor integration, allowing me to build robust IoT solutions from scratch. I thrive on solving complex technical challenges and translating ideas into functional prototypes.
+                    </p>
+                    
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i data-feather="map-pin" class="detail-icon"></i>
+                            <div>
+                                <span class="detail-label">Location</span>
+                                <span class="detail-value">Virudhunagar, Tamil Nadu, India</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i data-feather="mail" class="detail-icon"></i>
+                            <div>
+                                <span class="detail-label">Email</span>
+                                <a href="mailto:sakthinaveensakthi@gmail.com" class="detail-value">sakthinaveensakthi@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education Timeline -->
+                <div class="education-timeline">
+                    <h3 class="timeline-title"><i data-feather="book-open"></i> Academic Path</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2023 - 2027</span>
+                                <h4 class="timeline-heading">B.E. Electronics and Communication Engineering</h4>
+                                <p class="timeline-institution">Dr. N.G.P Institute of Technology, Coimbatore</p>
+                                <span class="grade-badge">CGPA: 7.43</span>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2022</span>
+                                <h4 class="timeline-heading">Higher Secondary Education</h4>
+                                <p class="timeline-institution">KVS Higher Secondary School, Virudhunagar</p>
+                                <span class="grade-badge">Score: 78%</span>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2018 - 2019</span>
+                                <h4 class="timeline-heading">Secondary Education</h4>
+                                <p class="timeline-institution">KVS Higher Secondary School, Virudhunagar</p>
+                                <span class="grade-badge">Score: 66%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical & Soft Skills Section -->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Technical Skills</h2>
+            <span class="section-subtitle">Technologies and tools I work with</span>
+
+            <div class="skills-container container grid">
+                <!-- Skill Category: Programming -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title"><i data-feather="code"></i> Programming Languages</h3>
+                    <div class="skill-badges">
+                        <span class="skill-badge"><i data-feather="terminal"></i> C / Embedded C</span>
+                        <span class="skill-badge"><i data-feather="code"></i> Java</span>
+                        <span class="skill-badge"><i data-feather="globe"></i> HTML5</span>
+                        <span class="skill-badge"><i data-feather="layout"></i> CSS3</span>
+                    </div>
+                </div>
+
+                <!-- Skill Category: Embedded Systems & Hardware -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title"><i data-feather="cpu"></i> IoT & Hardware</h3>
+                    <div class="skill-badges">
+                        <span class="skill-badge"><i data-feather="cpu"></i> Arduino</span>
+                        <span class="skill-badge"><i data-feather="wifi"></i> NodeMCU</span>
+                        <span class="skill-badge"><i data-feather="settings"></i> Embedded C</span>
+                        <span class="skill-badge"><i data-feather="radio"></i> RFID Systems</span>
+                        <span class="skill-badge"><i data-feather="sliders"></i> Servo Motors</span>
+                        <span class="skill-badge"><i data-feather="tool"></i> Sensors & Relays</span>
+                        <span class="skill-badge"><i data-feather="cloud"></i> Cloud Platforms</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Soft Skills -->
+            <div class="soft-skills-container container">
+                <h3 class="soft-skills-title"><i data-feather="users"></i> Soft Skills & Competencies</h3>
+                <div class="soft-skills-grid">
+                    <div class="soft-skill-card">
+                        <div class="soft-skill-icon"><i data-feather="users"></i></div>
+                        <h4>Teamwork</h4>
+                        <p>Collaborating effectively on multidisciplinary projects.</p>
+                    </div>
+                    <div class="soft-skill-card">
+                        <div class="soft-skill-icon"><i data-feather="tool"></i></div>
+                        <h4>Problem Solving</h4>
+                        <p>Debugging hardware and troubleshooting logical flows.</p>
+                    </div>
+                    <div class="soft-skill-card">
+                        <div class="soft-skill-icon"><i data-feather="refresh-cw"></i></div>
+                        <h4>Adaptability</h4>
+                        <p>Quick to learn and implement new technical frameworks.</p>
+                    </div>
+                    <div class="soft-skill-card">
+                        <div class="soft-skill-icon"><i data-feather="clock"></i></div>
+                        <h4>Time Management</h4>
+                        <p>Meeting development schedules and project milestones.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience section" id="experience">
+            <h2 class="section-title">Internship Experience</h2>
+            <span class="section-subtitle">My professional training and roles</span>
+
+            <div class="experience-container container">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="experience-logo">
+                            <i data-feather="briefcase"></i>
+                        </div>
+                        <div class="experience-titles">
+                            <h3>Embedded Systems Intern</h3>
+                            <h4>Krish Tech</h4>
+                            <span class="experience-date"><i data-feather="calendar"></i> 2025 (Internship)</span>
+                        </div>
+                    </div>
+                    
+                    <ul class="experience-details">
+                        <li>
+                            <span class="detail-bullet"><i data-feather="check-circle"></i></span>
+                            <span class="detail-text">Gained practical hands-on experience in embedded systems development and microcontroller programming.</span>
+                        </li>
+                        <li>
+                            <span class="detail-bullet"><i data-feather="check-circle"></i></span>
+                            <span class="detail-text">Worked on hardware interfacing, sensor integration (temperature, distance, RFID), and embedded application design.</span>
+                        </li>
+                        <li>
+                            <span class="detail-bullet"><i data-feather="check-circle"></i></span>
+                            <span class="detail-text">Assisted in compiling, uploading, testing, debugging, and troubleshooting embedded C code on target microcontrollers.</span>
+                        </li>
+                        <li>
+                            <span class="detail-bullet"><i data-feather="check-circle"></i></span>
+                            <span class="detail-text">Enhanced knowledge of real-time systems, circuit design principles, and modern connected device concepts.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <h2 class="section-title">Projects</h2>
+            <span class="section-subtitle">Key engineering solutions I have designed</span>
+
+            <!-- Project Filters -->
+            <div class="project-filters container">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="iot">IoT & Wi-Fi</button>
+                <button class="filter-btn" data-filter="robotics">Robotics</button>
+                <button class="filter-btn" data-filter="automation">Automation</button>
+            </div>
+
+            <div class="projects-grid container grid">
+                <!-- Project 1: Home Automation -->
+                <div class="project-card" data-category="iot automation">
+                    <div class="project-img-wrapper">
+                        <div class="project-icon-placeholder">
+                            <i data-feather="home"></i>
+                        </div>
+                        <span class="project-tag">IoT / Wi-Fi</span>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-date">2023 - 2024</span>
+                        <h3>Home Automation Using IoT</h3>
+                        <p class="project-desc">
+                            Developed an IoT-based home automation system for remote monitoring and control of household appliances. Configured web-interfaces for wireless relay triggers.
+                        </p>
+                        <ul class="project-bullet-details">
+                            <li>Integrated Arduino/NodeMCU with relays, sensors, and Wi-Fi modules.</li>
+                            <li>Enabled real-time, low-latency control via web page dashboard & mobile app.</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>IoT</span>
+                            <span>Arduino</span>
+                            <span>NodeMCU</span>
+                            <span>Embedded C</span>
+                            <span>Relays</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/23ec072-nashh" target="_blank" rel="noopener noreferrer" class="project-link-btn" title="View Source Code">
+                                <i data-feather="github"></i> Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Robotic Arm -->
+                <div class="project-card" data-category="robotics">
+                    <div class="project-img-wrapper">
+                        <div class="project-icon-placeholder">
+                            <i data-feather="settings"></i>
+                        </div>
+                        <span class="project-tag">Robotics</span>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-date">2024 - 2025</span>
+                        <h3>Robotic Arm</h3>
+                        <p class="project-desc">
+                            Designed and developed a mechanical robotic arm capable of performing precise pick-and-place operations. Optimized servo angles to maximize range of motion.
+                        </p>
+                        <ul class="project-bullet-details">
+                            <li>Integrated multi-axis servo motors with microcontroller-based PWM controls.</li>
+                            <li>Wrote Inverse Kinematics approximations in Embedded C for smooth movement.</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>Arduino</span>
+                            <span>Servo Motors</span>
+                            <span>Embedded C</span>
+                            <span>Robotics</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/23ec072-nashh" target="_blank" rel="noopener noreferrer" class="project-link-btn" title="View Source Code">
+                                <i data-feather="github"></i> Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Toll Booth -->
+                <div class="project-card" data-category="iot automation">
+                    <div class="project-img-wrapper">
+                        <div class="project-icon-placeholder">
+                            <i data-feather="truck"></i>
+                        </div>
+                        <span class="project-tag">IoT / Smart City</span>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-date">2025 - 2026</span>
+                        <h3>Toll Booth Monitoring System</h3>
+                        <p class="project-desc">
+                            An automated vehicle detection and toll system utilizing contactless RFID tags and automated barrier gate controllers.
+                        </p>
+                        <ul class="project-bullet-details">
+                            <li>Implemented RFID-based vehicle verification with immediate database matching.</li>
+                            <li>Improved toll collection efficiency with cloud-based logs & web dashboard tracking.</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>IoT</span>
+                            <span>Arduino Uno</span>
+                            <span>RFID</span>
+                            <span>Embedded C</span>
+                            <span>Cloud Platform</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/23ec072-nashh" target="_blank" rel="noopener noreferrer" class="project-link-btn" title="View Source Code">
+                                <i data-feather="github"></i> Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="certifications section" id="certifications">
+            <h2 class="section-title">Certifications</h2>
+            <span class="section-subtitle">Courses and validations I have completed</span>
+
+            <div class="certifications-filter-container container">
+                <div class="search-box">
+                    <i data-feather="search" class="search-icon"></i>
+                    <input type="text" id="cert-search" placeholder="Search certificates by title or institution..." aria-label="Search Certifications">
+                </div>
+            </div>
+
+            <div class="certifications-grid container grid" id="certifications-grid">
+                <!-- Cert 1 -->
+                <div class="cert-card" data-title="machine learning onramp mathworks">
+                    <div class="cert-icon"><i data-feather="award"></i></div>
+                    <div class="cert-body">
+                        <h4>Machine Learning Onramp</h4>
+                        <p class="cert-org">MathWorks</p>
+                    </div>
+                </div>
+                <!-- Cert 2 -->
+                <div class="cert-card" data-title="deep learning onramp mathworks">
+                    <div class="cert-icon"><i data-feather="award"></i></div>
+                    <div class="cert-body">
+                        <h4>Deep Learning Onramp</h4>
+                        <p class="cert-org">MathWorks</p>
+                    </div>
+                </div>
+                <!-- Cert 3 -->
+                <div class="cert-card" data-title="academic process mining fundamentals">
+                    <div class="cert-icon"><i data-feather="award"></i></div>
+                    <div class="cert-body">
+                        <h4>Academic Process Mining Fundamentals</h4>
+                        <p class="cert-org">Celonis / Academic Partner</p>
+                    </div>
+                </div>
+                <!-- Cert 4 -->
+                <div class="cert-card" data-title="2d/3d cad modeling of building environment fundamentals">
+                    <div class="cert-icon"><i data-feather="award"></i></div>
+                    <div class="cert-body">
+                        <h4>2D/3D CAD Modeling of Building Environment Fundamentals</h4>
+                        <p class="cert-org">Autodesk / Academic Partner</p>
+                    </div>
+                </div>
+                <!-- Cert 5 -->
+                <div class="cert-card" data-title="explore automation development with uipath studio">
+                    <div class="cert-icon"><i data-feather="award"></i></div>
+                    <div class="cert-body">
+                        <h4>Explore Automation Development with UiPath Studio</h4>
+                        <p class="cert-org">UiPath Academy</p>
+                    </div>
+                </div>
+                <!-- Cert 6 -->
+                <div class="cert-card" data-title="getting started with mongodb atlas">
+                    <div class="cert-icon"><i data-feather="award"></i></div>
+                    <div class="cert-body">
+                        <h4>Getting Started with MongoDB Atlas</h4>
+                        <p class="cert-org">MongoDB University</p>
+                    </div>
+                </div>
+                <!-- Cert 7 -->
+                <div class="cert-card" data-title="introduction to ai and vector search">
+                    <div class="cert-icon"><i data-feather="award"></i></div>
+                    <div class="cert-body">
+                        <h4>Introduction to AI and Vector Search</h4>
+                        <p class="cert-org">MongoDB / Academic Partner</p>
+                    </div>
+                </div>
+                <!-- Cert 8 -->
+                <div class="cert-card" data-title="cloud computing nptel">
+                    <div class="cert-icon"><i data-feather="award"></i></div>
+                    <div class="cert-body">
+                        <h4>Cloud Computing</h4>
+                        <p class="cert-org">NPTEL</p>
+                    </div>
+                </div>
+                <!-- Cert 9 -->
+                <div class="cert-card" data-title="introduction to internet of things nptel">
+                    <div class="cert-icon"><i data-feather="award"></i></div>
+                    <div class="cert-body">
+                        <h4>Introduction to Internet of Things</h4>
+                        <p class="cert-org">NPTEL</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <span class="section-subtitle">Reach out for collaborations or inquiries</span>
+
+            <div class="contact-container container grid">
+                <!-- Contact Info Cards -->
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i data-feather="mail" class="contact-card-icon"></i>
+                        <h3>Email</h3>
+                        <p>sakthinaveensakthi@gmail.com</p>
+                        <a href="mailto:sakthinaveensakthi@gmail.com" class="contact-link">Send a message <i data-feather="arrow-right"></i></a>
+                    </div>
+
+                    <div class="contact-card">
+                        <i data-feather="phone" class="contact-card-icon"></i>
+                        <h3>Phone</h3>
+                        <p>+91 93425 74856</p>
+                        <a href="tel:9342574856" class="contact-link">Call now <i data-feather="arrow-right"></i></a>
+                    </div>
+
+                    <div class="contact-card">
+                        <i data-feather="map-pin" class="contact-card-icon"></i>
+                        <h3>Location</h3>
+                        <p>Virudhunagar, Tamil Nadu, India</p>
+                        <a href="https://maps.google.com/?q=Virudhunagar,Tamil+Nadu,India" target="_blank" rel="noopener noreferrer" class="contact-link">Open in Maps <i data-feather="arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <form action="#" class="contact-form" id="contact-form">
+                        <div class="form-group-grid">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" id="name" placeholder="John Doe" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" placeholder="john@example.com" class="form-input" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" placeholder="Project Inquiry" class="form-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" cols="30" rows="6" placeholder="Your message here..." class="form-input" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary form-submit-btn">
+                            Send Message <i data-feather="send"></i>
+                        </button>
+                    </form>
+                    
+                    <!-- Form Status Box -->
+                    <div id="form-status" class="form-status-box hidden"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container container">
+            <div class="footer-header">
+                <a href="#home" class="logo">
+                    <span class="logo-accent">&lt;</span>Naveen<span class="logo-text">Sakthi</span> <span class="logo-accent">/&gt;</span>
+                </a>
+                <p>Building smart, connected systems for the future.</p>
+            </div>
+            
+            <div class="footer-socials">
+                <a href="https://github.com/23ec072-nashh" target="_blank" rel="noopener noreferrer" title="GitHub"><i data-feather="github"></i></a>
+                <a href="https://linkedin.com/in/naveensakthi-b-a8477a324" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i data-feather="linkedin"></i></a>
+                <a href="mailto:sakthinaveensakthi@gmail.com" title="Email"><i data-feather="mail"></i></a>
+                <a href="tel:9342574856" title="Phone"><i data-feather="phone"></i></a>
+            </div>
+
+            <p class="footer-copy">&copy; 2026 Naveen Sakthi B. All rights reserved. Crafted with HTML, Vanilla CSS & JS.</p>
+        </div>
+    </footer>
+
+    <!-- Core Script -->
+    <script src="script.js"></script>
+</body>
+</html>
