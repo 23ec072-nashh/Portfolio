@@ -3,6 +3,8 @@
 A premium, modern, and fully responsive personal portfolio website showcasing the skills, academic history, projects, and certifications of **Naveen Sakthi B**, an Electronics and Communication Engineering student specializing in IoT, Embedded Systems, and Automation.
 
 ---
+**Live Demo**
+[https://23ec072-nashh.github.io/portfolio/](url)
 
 ## 🛠️ Tech Stack & Architecture
 
@@ -61,18 +63,3 @@ python -m http.server 8000
 
 ---
 
-## 🐙 Push to GitHub
-
-To publish this portfolio to your GitHub account (`23ec072-nashh`), run these commands in your command line:
-
-```bash
-# Navigate to project directory
-cd C:\Users\kavya\.gemini\antigravity\scratch\naveen-portfolio
-
-# Add remote origin
-git remote add origin https://github.com/23ec072-nashh/portfolio.git
-git branch -M main
-
-# Push to your repository
-git push -u origin main
-```
